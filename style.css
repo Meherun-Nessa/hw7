@@ -1,0 +1,81 @@
+/*common start*/
+body{
+
+}
+/*common end*/
+/*header start*/
+header{
+	border: 1px solid red;
+}
+.box{
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.logo{
+	width: 10%;
+	/*border: 1px solid green;*/
+	float: left;
+}
+.logo a{
+
+}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 50%;
+	/*border: 5px solid blue;*/
+	float: right;
+}
+.menu ul{}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	text-decoration: none;
+	padding: 15px;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: inherit;
+}
+/*header end*/
+/* banner start*/
+.banner{
+	width: 100%;
+	padding: 20px;
+}
+.box1{
+	margin: 0 auto;
+	width: 55%;
+	border: 1px solid black;
+}
+.b-content{
+	text-align: center;
+}
+.b-content h1{
+	font-size: 50px;
+	line-height: 70px;
+}
+.b-content p{
+	font-size: 16px;
+	line-height: 25px;
+}
+.b-content h1 span{
+	color: blue;
+}
+.b-img{
+	margin: 0 auto;
+	width: 70%;
+	border: 1px solid blue;
+}
+.b-img img{
+	width: 100%;
+}
+/*banner end*/
